@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif
+}
+
+
+
+body{
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+
+.app-content{
+  display: flex;
+
+}
+
+.logo{
+  height: 80px;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
+.verify{
+  min-height: 60vh;
+  margin-left: 30vw;
+  margin-top: 30vh;
+  }
+  
+  
+  .verify .spinner {
+      width: 100px;
+      height: 100px;
+      place-self: center;
+      border: 5px solid #bdbdbd;
+      border-top-color: tomato;
+      border-radius: 50%;
+      animation: rotate 1s infinite;
+  }
+  
+  @keyframes rotate {
+      100%{
+          transform: rotate(360deg);
+      }
+  }
+
+
+
+@media (max-width:1050px){
+  .logo{
+    height: 60px;
+  }
+  }
+  
+  @media (max-width:750px){
+    .logo{
+      height: 45px;
+    }
+  }
