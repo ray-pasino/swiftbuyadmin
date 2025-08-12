@@ -13,8 +13,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   // const url = "https://finafreightserver.onrender.com"
-  const url = "http://localhost:4000";
-  
+  // const url = "http://localhost:4000";
+  const url = "https://swiftbuyserver.onrender.com"
 
   return (
     <div>
